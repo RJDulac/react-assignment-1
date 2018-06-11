@@ -1,3 +1,14 @@
 .centerParagraph {
 	text-align: center;
+	border: 2px solid black;
+	width: 40%;
+	margin: 0 auto;
+	background-color: gray;
+}
+.centerParagraph:not(:last-child) {
+	border-bottom: none;
+}
+p {
+	margin: 0;
+	padding-bottom: 1rem;
 }

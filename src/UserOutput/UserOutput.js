@@ -1,12 +1,13 @@
 import React from 'react';
 import './userOutput.css';
 
-const UserOutput = (props) => {
+const userOutput = (props) => {
 	return (
 		<div className="centerParagraph">
-			<p>{props.name}</p>
+			<p>Username: {props.name}</p>
+			<p> Hello {props.name}</p>
 		</div>
-	)
-}
+	);
+};
 
-export default UserOutput;
+export default userOutput;
